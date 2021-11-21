@@ -25,7 +25,7 @@ var package = Package(
             name: "ArgumentParser",
             dependencies: [],
             swiftSettings: [
-                .unsafeFlags(["-Xfrontend", "-enable-experimental-concurrency"]),
+//                .unsafeFlags(["-Xfrontend", "-enable-experimental-concurrency"]),
             ]),
         .target(
             name: "ArgumentParserTestHelpers",
@@ -49,7 +49,7 @@ var package = Package(
             dependencies: ["ArgumentParser"],
             path: "Tools/changelog-authors",
             swiftSettings: [
-                .unsafeFlags(["-Xfrontend", "-enable-experimental-concurrency"]),
+//                .unsafeFlags(["-Xfrontend", "-enable-experimental-concurrency"]),
             ]),
 
         .testTarget(
